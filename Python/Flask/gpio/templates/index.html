@@ -3,10 +3,20 @@
 <head>
 	<title>GPIO with Flask!</title>
 </head>
+<h2> THE GREAT LIGHTS </h2>
 <body>
-{{msg}}
-<form method="POST">
-	<button type="submit" name="submitBtn" value="You clicked!">CLick me!</button>
+<p>the green led is {{green}}
+<p>the blue led is {{blue}}
+<form method="POST" name="myform" action="/">
+	
+<p>press the green one for a green light 
+<input type="image" name="submit1" value="hi" src="/static/media/green-dot.png" border="0 " alt=Submit style= "width:50px;"/>	 
+<p>press the blue one for a blue light 
+<input type="image" name="submit2" src="/static/media/blue dot.png" border="0 " alt=Submit style= "width:50px;"/>
+
+
+
+
 </form>
 </body>
 </html>
